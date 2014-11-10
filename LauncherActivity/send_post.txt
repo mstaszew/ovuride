@@ -1,0 +1,4 @@
+
+Sending 'POST' request to URL : https://mybell.bell.ca/Login
+ Post parameters: refreshLink=&language=en&region=ON&smauthreason=0&target=&LoginFlow=Generallogin&USER=ANNBALDERAMA&PASSWORD=bell1passxx&=
+ Response Code: 200
