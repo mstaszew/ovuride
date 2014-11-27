@@ -1,0 +1,398 @@
+// JavaScript Document for Login
+// Create a dummy Cookie object, so we can use the prototype object to make
+// the functions above into methods.
+new Cookie();
+Cookie.prototype.store = _Cookie_store;
+Cookie.prototype.load = _Cookie_load;
+Cookie.prototype.remove = _Cookie_remove;
+
+// set cookie to expire in 90 days
+var today = new Date();
+var expires = new Date(today.getTime() + (90 * 86400000));
+
+//getUserNameCookie(document.forms['LoginForm']);
+
+//
+// Submit
+//
+
+
+//
+// Set a Cookie to store the number of attepts the user has made.
+//
+//function setCounter() {
+//    var counter = getCookieValue('GES_TRYNO');
+//    counter = parseInt(counter);
+//    if (isNaN(counter))
+//        counter = 0;
+//    counter++;
+//    var sCounter = "" + counter + "";
+//    //alert(counter);
+//    setCookie('GES_TRYNO', sCounter);
+//}
+
+//
+// Set the value of a cookie
+//
+//function setCookie(cookieName, cookieValue) {
+//    var aCookie = new Cookie(document, cookieName);
+//    aCookie.$isSingleValue = true;
+//    aCookie.$domain = '.' + _HLDN();
+//    aCookie.$value = smDecode(cookieValue);
+//    aCookie.$value = cookieValue;
+//    aCookie.$path = '/';
+//    aCookie.store();
+//}
+
+//
+//  Decode a string from SiteMinder's encoding process.
+//
+function smDecode(url) {
+    if ((url != null) && (url.indexOf("$SM$") == 0)) {
+        n = "";
+
+        for (i = 4; i < url.length; i++) {
+            a = url.charAt(i);
+
+            if (a == '$') {
+                i++; a = url.charAt(i);
+            }
+            else {
+                if (a == '%') {
+                    b = url.substr(i, 3);
+                    a = unescape(b);
+                    i += 2;
+                }
+            }
+            n = n + a;
+        }
+        url = n;
+    }
+
+    return url;
+}
+
+//
+//    Checks to see if a cookie with a given name is set and has a non-empty value
+//    (Assumes that the cookie is for te current document.)
+//
+function getCookieValue(name) {
+    var aCookie = new Cookie(document, name);
+
+    if (aCookie.load() && (aCookie.$value != ""))
+        return aCookie.$value;
+    else
+        return null;
+}
+
+function correctGID(aString) {
+    var newString = stripAccentString(aString);
+    return newString;
+}
+
+function stripAccentString(aString) {
+    if (aString == null)
+        return null;
+
+    var charArray = aString.split('');
+    var newString = '';
+    var aChar = '';
+    var newChar = '';
+    for (var i = 0; i < charArray.length; i++) {
+        aChar = charArray[i];
+        newChar = stripAccentChar(aChar);
+        charArray[i] = newChar;
+    }
+
+    newString = charArray.join('');
+    return newString;
+}
+
+// These functions are included in the jsp so that the reloadable tags can be used
+function fieldsFilled(aForm) {
+    var noUser = (aForm.USER.value == '');
+    var noPassword = (aForm.PASSWORD.value == '');
+    var warning = '';
+    var omnitureError = '';
+
+    $('#errorUser').addClass('hide');
+    $('#errorPassword').addClass('hide');
+    $('#msgLoginUserError').addClass('hide');
+    $('#msgLoginPasswordError').addClass('hide');
+    $('#alertMsgJS').addClass('hide');
+    $('#labelUser').addClass('txtGrayDark');
+    $('#labelPassword').addClass('txtGrayDark');
+    
+    $('#labelUser').removeClass('txtBold');
+    $('#labelPassword').removeClass('txtBold');
+    $('#labelUser').removeClass('txtRed');
+    $('#labelPassword').removeClass('txtRed');
+
+
+    $('#USER').removeClass('txtYellow');
+    $('#PASSWORD').removeClass('txtYellow');
+
+    
+    if ($("#alertMsg").length > 0) {
+        $("#alertMsg").addClass('hide');
+    }
+
+
+    if (noUser && noPassword) {
+
+        warning = "Enter your bell.ca username and password.";
+        $('#errorUser').removeClass('hide');
+        $('#errorPassword').removeClass('hide');
+        $('#msgLoginUserError').removeClass('hide');
+        $('#msgLoginPasswordError').removeClass('hide');
+       
+        $('#labelUser').addClass('txtRed');
+        $('#labelPassword').addClass('txtRed');
+        
+        $('#labelUser').addClass('txtBold');
+        $('#labelPassword').addClass('txtBold');
+
+        $('#USER').addClass('txtYellow');
+        $('#PASSWORD').addClass('txtYellow');
+
+        //document.getElementById("USER").style.backgroundColor = '#F6F4CE';
+        //document.getElementById("PASSWORD").style.backgroundColor = '#F6F4CE';
+        $('#USER').focus();
+        omnitureError = 'Login_err_04';
+     } else if (noUser) {
+         warning = "Enter your bell.ca username.";
+
+         $('#errorUser').removeClass('hide');
+         $('#msgLoginUserError').removeClass('hide');
+         
+         $('#labelUser').addClass('txtRed');
+         
+         $('#labelUser').addClass('txtBold');
+         
+         $('#USER').addClass('txtYellow');
+         
+
+        $("#USER").focus();
+        omnitureError = 'Login_err_06';
+
+    } else if (noPassword) {
+        warning = "Enter your bell.ca password.";
+        
+        $('#errorPassword').removeClass('hide');
+        $('#msgLoginPasswordError').removeClass('hide');
+
+        $('#labelPassword').addClass('txtRed');
+
+        $('#labelPassword').addClass('txtBold');
+
+        $('#PASSWORD').addClass('txtYellow');
+        $("#PASSWORD").focus();
+        omnitureError = 'Login_err_05';
+    }
+
+    if (warning == '') {
+        return true;
+    } else {
+        $("#alertMsgJS").removeClass('hide');
+        try {
+            OmnitureLoginCall(omnitureError);
+        }
+        catch (e) { }
+        return false;
+    }
+}
+
+function OmnitureLoginCall(error) {
+
+    s_oTrackPage({
+        s_oAPT: "001-2-2",
+        s_oARS: error
+    });
+}
+
+//function BuildErrorValueForOmniture() {
+//    var errorlist = "";
+//    var errors = "";
+//    var errmsg = "";
+//    var IsSetLPError = false;
+
+//    // For Numbers
+//    $(".userMsg #errorList li").each(function (index) {
+
+//        var error = "";
+//        if ($(this).css('display') != 'none') {
+//            error = $(this).text();
+//            error = error.replace(/[^a-zA-Z 0-9]+/g, '');
+//            error = $.trim(error);
+//            error = error.replace(/\s{2,}/g, ' ');
+//        }
+
+//        if (error != '') {
+//            errorlist = errorlist + "/" + error;
+//        }
+//    });
+
+//    errorlist = errorlist.substr(1);
+//    return errorlist;
+//}
+
+////////////////////////////////////////////////////////////////////////////////////
+// Originally from chartranslate.js
+////////////////////////////////////////////////////////////////////////////////////
+function stripAccentChar(aChar) {
+    var specialChars = new Array(
+                             String.fromCharCode(192),  // ?
+                             String.fromCharCode(193),  // ?
+                             String.fromCharCode(194),  // ?
+                             String.fromCharCode(195),  // ?
+                             String.fromCharCode(196),  // ?
+                             String.fromCharCode(197),  // ?
+                             String.fromCharCode(199),  // ?
+                             String.fromCharCode(200),  // ?
+                             String.fromCharCode(201),  // ?
+                             String.fromCharCode(202),  // ?
+                             String.fromCharCode(203),  // ?
+                             String.fromCharCode(204),  // ?
+                             String.fromCharCode(205),  // ?
+                             String.fromCharCode(206),  // ?
+                             String.fromCharCode(207),  // ?
+                             String.fromCharCode(209),  // ?
+                             String.fromCharCode(210),  // ?
+                             String.fromCharCode(211),  // ?
+                             String.fromCharCode(212),  // ?
+                             String.fromCharCode(213),  // ?
+                             String.fromCharCode(214),  // ?
+                             String.fromCharCode(217),  // ?
+                             String.fromCharCode(218),  // ?
+                             String.fromCharCode(219),  // ?
+                             String.fromCharCode(220),  // ?
+                             String.fromCharCode(221),  // ?
+
+                             String.fromCharCode(224),  // ?
+                             String.fromCharCode(225),  // ?
+                             String.fromCharCode(226),  // ?
+                             String.fromCharCode(227),  // ?
+                             String.fromCharCode(228),  // ?
+                             String.fromCharCode(229),  // ?
+                             String.fromCharCode(231),  // ?
+                             String.fromCharCode(232),  // ?
+                             String.fromCharCode(233),  // ?
+                             String.fromCharCode(234),  // ?
+                             String.fromCharCode(235),  // ?
+                             String.fromCharCode(236),  // ?
+                             String.fromCharCode(237),  // ?
+                             String.fromCharCode(238),  // ?
+                             String.fromCharCode(239),  // ?
+                             String.fromCharCode(241),  // ?
+                             String.fromCharCode(242),  // ?
+                             String.fromCharCode(243),  // ?
+                             String.fromCharCode(244),  // ?
+                             String.fromCharCode(245),  // ?
+                             String.fromCharCode(246),  // ?
+                             String.fromCharCode(249),  // ?
+                             String.fromCharCode(250),  // ?
+                             String.fromCharCode(251),  // ?
+                             String.fromCharCode(252),  // ?
+                             String.fromCharCode(252),  // ?
+                             String.fromCharCode(255)   // ?
+                             );
+    var normalChars = new Array(
+                            'A',
+                            'A',
+                            'A',
+                            'A',
+                            'A',
+                            'A',
+                            'C',
+                            'E',
+                            'E',
+                            'E',
+                            'E',
+                            'I',
+                            'I',
+                            'I',
+                            'I',
+                            'N',
+                            'O',
+                            'O',
+                            'O',
+                            'O',
+                            'O',
+                            'U',
+                            'U',
+                            'U',
+                            'U',
+                            'Y',
+
+                            'a',
+                            'a',
+                            'a',
+                            'a',
+                            'a',
+                            'a',
+                            'c',
+                            'e',
+                            'e',
+                            'e',
+                            'e',
+                            'i',
+                            'i',
+                            'i',
+                            'i',
+                            'n',
+                            'o',
+                            'o',
+                            'o',
+                            'o',
+                            'o',
+                            'u',
+                            'u',
+                            'u',
+                            'u',
+                            'y',
+                            'y'
+                            );
+
+    var normalizer = new Object;
+
+    for (i = 0; i < specialChars.length; i++) {
+        sc = specialChars[i];
+        nc = normalChars[i];
+        normalizer[sc] = nc;
+    }
+
+    var newChar = normalizer[aChar];
+    if ((newChar == null) || (newChar == ''))
+        return aChar;
+    else
+        return newChar;
+}
+
+
+
+//Session cookie
+//function readSessionCookie(nam) {
+//    var tC = document.cookie.split('; ');
+//    for (var i = tC.length - 1; i >= 0; i--) {
+//        var x = tC[i].split('=');
+//        if (nam == x[0]) return unescape(x[1]);
+//    }
+//    return null;
+//}
+
+function writeSessionCookie(cookieName, val) {
+    document.cookie = cookieName + "=" + escape(val) + ";path=/;domain=.bell.ca";
+
+}
+
+function submitLanguageRegionSelector() {
+    var region = $("input[name='SelectPreferred_region']:checked").val();
+    var currLang = 'en';
+    if (currLang.length == 0)
+        currLang = "en";
+    setLanguageRegionCookieValue(currLang, region, true)
+    location.reload();
+}
+
+
+

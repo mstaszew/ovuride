@@ -5,19 +5,12 @@ import org.jsoup.select.Elements;
 
 public class GlobalConstants {
 	private static GlobalConstants instance;
-	// all variables have default values
 	public Elements usage = null;
-	/** username and password should be always obtained from the settings.json file
-	 * and not hard-coded here
-	 */
 	// TODO: remove usernames and passwords from this source code using PersistentSettings class
 	public String username = "ANNBALDERAMA";
 	public String password = "bellx2573";  
-	public String providerLogOnUrl = "http://ovuride.co.nf/mybell.ca/?USER="+username+"&PASSWORD="+password;
-	public final String getUrl = "https://mybell.bell.ca/Login";
-	public final String postUrl = "https://mybell.bell.ca/Login";
-	public final String postLoginUrl = "https://mybell.bell.ca/MyServices";
-	// TODO: use constructor to build the constants
+	/* public String providerLogOnUrl = "file://assets/_ovuride/log_in_to_mybell.php?USER="+username+"&PASSWORD="+password; */
+	public String providerLogOnUrl = null;
 	public Element lastBill;
 	public Element paymReceived;
 	public Element currBalance;
@@ -29,8 +22,6 @@ public class GlobalConstants {
 		return instance;
 	}
 
-
-	// Restrict the constructor from being instantiated
 	private GlobalConstants() {
 	}
 

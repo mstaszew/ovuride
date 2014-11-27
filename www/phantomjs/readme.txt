@@ -1,0 +1,1 @@
+username and password are hard-coded, full webpage is being sent to the console. This is the first webpage after logon.

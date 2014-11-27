@@ -1,10 +1,14 @@
 package com.gleem.ovride.service;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import android.app.Service;
 import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.os.IBinder;
+import android.support.v4.content.LocalBroadcastManager;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
@@ -17,7 +21,22 @@ public class OvrideService extends Service {
 	HUDView mView;
 	protected static View rootView;
 	public static Rect ovrRectangle = null;
+	Timer widgetUpdater = null;
 
+	public OvrideService() {
+		if (widgetUpdater == null) {
+			widgetUpdater = new Timer();
+			widgetUpdater.schedule(new TimerTask() {
+				
+				@Override
+				public void run() {
+					LocalBroadcastManager broadcaster = LocalBroadcastManager.getInstance(getApplication());
+					broadcaster.sendBroadcast(new Intent("ACTION_APPWIDGET_UPDATE"));
+				}
+			}, 0, 60000); // update widgets every minute
+		}
+	}
+	
 	@Override
 	public IBinder onBind(Intent intent) {
 		return null;

@@ -1,0 +1,2701 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html id="myBell" lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Log in to MyBell</title>
+    <script type="text/javascript" src="/dtagent50_jp3_5944.js" data-dtconfig="rid=RID_1604071624|rpid=-1283446358|domain=bell.ca|tp=500,50,0|doNotDetect=kyu,scr,kyd|spl=1|spc=–;&gt;&lt;&amp;&#174;#;:;/;+;.;%23;%22;*;|doNotInstrument=clk,mup,blr,chg"></script><link rel="canonical" href="/Login?lang=en" />
+    <link rel="alternate" lang="fr" href="/Login?lang=fr" />
+    <meta name="description" content="Log in to MyBell to manage your personal Bell account and bill online. You’ll be able to view and pay your e-bill and use a variety of self-serve features." />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1024, device-width=1024" />
+    <meta http-equiv="Content-language" content="en" />
+    
+<meta name="mobile-web-app-capable" content="yes" />
+
+<link rel="icon" href="https://mybell.bell.ca/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://mybell.bell.ca/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://mybell.bell.ca/bellIcon_196x196_precomposed.png" sizes="196x196" />
+
+<!--iPhone / iPod-->
+<link rel="apple-touch-icon" href="https://mybell.bell.ca/bellIcon_60x60.png" sizes="60x60" />
+<link rel="apple-touch-icon-precomposed" href="https://mybell.bell.ca/bellIcon_60x60_precomposed.png" sizes="60x60" />
+
+<!--iPad-->
+<link rel="apple-touch-icon" href="https://mybell.bell.ca/bellIcon_76x76.png" sizes="76x76" />
+
+<!--iPhone / iPod Retina-->
+<link rel="apple-touch-icon" href="https://mybell.bell.ca/bellIcon_120x120.png" sizes="120x120" />
+
+<!--iPad Retina-->
+<link rel="apple-touch-icon" href="https://mybell.bell.ca/bellIcon_152x152.png" sizes="152x152" />
+    
+    <link href="https://prdbellweb.hs.llnwd.net/Resource/web/DCX/css/allBrowsers_framework.css?ver=2014111813521" media="screen" type="text/css" rel="stylesheet" />
+
+
+    <script src="https://prdbellweb.hs.llnwd.net/Resource/web/DCX/js/jquery.js?ver=2014111660" type='text/javascript'></script>
+    <script src="https://prdbellweb.hs.llnwd.net/Resource/web/DCX/js/framework.js?ver=2014111660" type='text/javascript'></script>
+    
+    <script src='https://prdbellweb.hs.llnwd.net/Resource/web/DCX/js/login.js?ver=2014111660' type='text/javascript'></script>
+    
+    
+ 
+   
+</head>
+<body class="noMargin en">
+
+        <div class="bgBlackLight" id="deprecatedBrowserJs" style="opacity: 0; display: none; height: 0px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+            <div class="pageWidth middleAlign">
+                <div class="spacer20">
+                    &nbsp;
+                </div>
+                <div>
+                    <div class="icon alertStroked floatL">
+                        &nbsp;
+                    </div>
+                    <div class="vSpacer10 floatL">
+                        &nbsp;
+                    </div>
+                    <div class="floatL txtSize25 txtWhite">
+                        The browser version you’re using appears to be out of date. For a better browsing experience and to properly view <br /> all the features of our website, as well as others, please <a class="txtWhite" href="http://windows.microsoft.com/en-ca/internet-explorer/download-ie" target="_blank">upgrade to the latest version of Internet Explorer.</a>
+                    </div>
+                    <a onclick="fadeSlide('#deprecatedBrowserJs'); return false" class="txtNoUnderline pointer floatR" href="#">
+                        <span class="icon closeMd block">
+                            &nbsp;
+                        </span>
+                    </a>
+                    <div class="spacer0 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="spacer17">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="spacer47 bgGradient_c">
+
+        <div class="spacer46 pageWidth middleAlign">
+
+            <div class="floatL">
+                <div class="spacer10 noTxt clear">
+                    &nbsp;
+                </div>
+                <a title="Bell" href="http://www.bell.ca/" class=" logo block txtnounderline">
+                    
+                </a>
+            </div>
+            <div class="vSpacer14 floatL">
+                &nbsp;
+            </div>
+            <div class="vSpacer1 bgBlack maxHeight floatL">
+                &nbsp;
+            </div>
+
+                    <div class="dcx_select floatL">
+                        <a onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="button button22 txtNoUnderline pointer" href="http://www.bell.ca/Residential_services">
+                            <span class="button_ML">
+                                <span class="button_MR">
+                                    <span class="button_MM spacer14 txtCenter">
+                                        <span class="middleAlign dynamicWidth">
+                                            <span class="floatL txtShadow txtSize13 txtWhite">
+                                                Shop
+                                            </span>
+                                            <span class="vSpacer5 floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="icon navArrow floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="spacer0 noTxt clear">
+                                                &nbsp;
+                                            </span>
+                                        </span>
+                                        <!--please keep the script with the “dynamicWidth_fn()” right after the “.dynamicWidth” for a smooth page rendering-->
+                                        <script type="text/javascript">dynamicWidth_fn()</script>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+
+                        <div onmouseout="dcx_dropDownMenuOut_fn(this);" onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="dcx_select_options hide" id=menuShop>
+                            <div class="menuArrow">
+                                &nbsp;
+                            </div>
+                            <div class="spacer5 noTxt">
+                                &nbsp;
+                            </div>
+                            <div class="box20_TL">
+                                <div class="box20_TR">
+                                    <div class="box20_TM noTxt spacer7">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_ML">
+                                <div class="box20_MR">
+                                    <div class="box20_MM maxHeight">
+                                        <div class="vPadding2">
+                                                <a class="button button2 txtNoUnderline pointer" href="http://www.bell.ca/Residential_services">
+                                                    <span class="button_TL noTxt">
+                                                        <span class="button_TR spacer5">
+                                                            <span class="button_TM spacer5">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_ML">
+                                                        <span class="button_MR">
+                                                            <span class="button_MM txtSize12 txtGrayDark">
+                                                                <span class="floatL">
+                                                                    Shop for Bell services
+                                                                </span>
+                                                                <span class="floatR icon nextLink noTxt">
+                                                                    &nbsp;
+                                                                </span>
+                                                                <span class="spacer0 noTxt clear">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_BL noTxt">
+                                                        <span class="button_BR spacer7">
+                                                            <span class="button_BM spacer7">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                        </div>
+
+
+                                                <div class="navMenuBtn floatL" id="shopMobility">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://www.bell.ca/Mobility">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Mobility
+                                                                    </span>
+                                                                    <span class="menuImage shopMobility">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="shopTv">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://www.bell.ca/Bell_TV">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell TV
+                                                                    </span>
+                                                                    <span class="menuImage shopTv">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="shopInternet">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://www.bell.ca/Bell_Internet">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Internet
+                                                                    </span>
+                                                                    <span class="menuImage shopInternet">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="shopHomephone">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://www.bell.ca/Home_phone">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Home phone
+                                                                    </span>
+                                                                    <span class="menuImage shopHomephone">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="shopBundles">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://bundles.bell.ca/en">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Bundles
+                                                                    </span>
+                                                                    <span class="menuImage shopBundles">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_BL">
+                                <div class="box20_BR">
+                                    <div class="box20_BM noTxt spacer16">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vSpacer1 bgBlack maxHeight floatL">
+                        &nbsp;
+                    </div>
+                    <div class="dcx_select floatL">
+                        <a onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="button button22 txtNoUnderline pointer" href="http://support.bell.ca">
+                            <span class="button_ML">
+                                <span class="button_MR">
+                                    <span class="button_MM spacer14 txtCenter">
+                                        <span class="middleAlign dynamicWidth">
+                                            <span class="floatL txtShadow txtSize13 txtWhite">
+                                                Support
+                                            </span>
+                                            <span class="vSpacer5 floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="icon navArrow floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="spacer0 noTxt clear">
+                                                &nbsp;
+                                            </span>
+                                        </span>
+                                        <!--please keep the script with the “dynamicWidth_fn()” right after the “.dynamicWidth” for a smooth page rendering-->
+                                        <script type="text/javascript">dynamicWidth_fn()</script>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+
+                        <div onmouseout="dcx_dropDownMenuOut_fn(this);" onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="dcx_select_options hide" id=menuShop>
+                            <div class="menuArrow">
+                                &nbsp;
+                            </div>
+                            <div class="spacer5 noTxt">
+                                &nbsp;
+                            </div>
+                            <div class="box20_TL">
+                                <div class="box20_TR">
+                                    <div class="box20_TM noTxt spacer7">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_ML">
+                                <div class="box20_MR">
+                                    <div class="box20_MM maxHeight">
+                                        <div class="vPadding2">
+                                                <a class="button button2 txtNoUnderline pointer" href="http://support.bell.ca">
+                                                    <span class="button_TL noTxt">
+                                                        <span class="button_TR spacer5">
+                                                            <span class="button_TM spacer5">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_ML">
+                                                        <span class="button_MR">
+                                                            <span class="button_MM txtSize12 txtGrayDark">
+                                                                <span class="floatL">
+                                                                    Support for Bell services
+                                                                </span>
+                                                                <span class="floatR icon nextLink noTxt">
+                                                                    &nbsp;
+                                                                </span>
+                                                                <span class="spacer0 noTxt clear">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_BL noTxt">
+                                                        <span class="button_BR spacer7">
+                                                            <span class="button_BM spacer7">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                        </div>
+
+
+                                                <div class="navMenuBtn floatL" id="supportMobility">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://support.bell.ca/Mobility">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Mobility support
+                                                                    </span>
+                                                                    <span class="menuImage supportMobility">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="supportTv">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://support.bell.ca/Fibe_TV">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell TV support
+                                                                    </span>
+                                                                    <span class="menuImage supportTv">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="supportInternet">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://support.bell.ca/Internet">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Internet support
+                                                                    </span>
+                                                                    <span class="menuImage supportInternet">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="supportHomephone">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://support.bell.ca/Home_Phone">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Bell Home phone support
+                                                                    </span>
+                                                                    <span class="menuImage supportHomephone">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="supportBundles">
+                                                    <a class="button button26 txtNoUnderline pointer" href="http://support.bell.ca/Billing-and-Accounts">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        Billing &amp; account support 
+                                                                    </span>
+                                                                    <span class="menuImage supportBundles">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_BL">
+                                <div class="box20_BR">
+                                    <div class="box20_BM noTxt spacer16">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vSpacer1 bgBlack maxHeight floatL">
+                        &nbsp;
+                    </div>
+                    <div class="dcx_select floatL">
+                        <a onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="button button22 txtNoUnderline pointer" href="/">
+                            <span class="button_ML">
+                                <span class="button_MR">
+                                    <span class="button_MM spacer14 txtCenter">
+                                        <span class="middleAlign dynamicWidth">
+                                            <span class="floatL txtShadow txtSize13 txtWhite">
+                                                MyBell
+                                            </span>
+                                            <span class="vSpacer5 floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="icon navArrow floatL">
+                                                &nbsp;
+                                            </span>
+                                            <span class="spacer0 noTxt clear">
+                                                &nbsp;
+                                            </span>
+                                        </span>
+                                        <!--please keep the script with the “dynamicWidth_fn()” right after the “.dynamicWidth” for a smooth page rendering-->
+                                        <script type="text/javascript">dynamicWidth_fn()</script>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+
+                        <div onmouseout="dcx_dropDownMenuOut_fn(this);" onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="dcx_select_options hide" id=menuMyServices>
+                            <div class="menuArrow">
+                                &nbsp;
+                            </div>
+                            <div class="spacer5 noTxt">
+                                &nbsp;
+                            </div>
+                            <div class="box20_TL">
+                                <div class="box20_TR">
+                                    <div class="box20_TM noTxt spacer7">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_ML">
+                                <div class="box20_MR">
+                                    <div class="box20_MM maxHeight">
+                                        <div class="vPadding2">
+                                        </div>
+
+
+                                                <div class="navMenuBtn floatL" id="myServices">
+                                                    <a class="button button26 txtNoUnderline pointer" href="/MyServices/">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        My Services
+                                                                    </span>
+                                                                    <span class="menuImage myServices">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="myBills">
+                                                    <a class="button button26 txtNoUnderline pointer" href="/MyBills/">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        My bills
+                                                                    </span>
+                                                                    <span class="menuImage myBills">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                                <div class="navMenuBtn floatL" id="myProfile">
+                                                    <a class="button button26 txtNoUnderline pointer" href="/MyProfile/">
+                                                        <span class="button_TL noTxt">
+                                                            <span class="button_TR spacer8">
+                                                                <span class="button_TM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_ML">
+                                                            <span class="button_MR">
+                                                                <span class="button_MM vPaddingL20">
+                                                                    <span class="col040 txtSize14 txtBlackLight dynamicMidAlign floatL">
+                                                                        My profile
+                                                                    </span>
+                                                                    <span class="menuImage myProfile">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                    <span class="spacer0 noTxt clear">
+                                                                        &nbsp;
+                                                                    </span>
+                                                                </span>
+                                                                <!--please keep the script with the “dynamicMidAlign_fn()” right after the PARENT of the “.dynamicMidAlign” for a smooth page rendering. PARENT is required by function too-->
+                                                                <script type="text/javascript">
+                                                                    dynamicMidAlign_fn()
+                                                                </script>
+                                                            </span>
+                                                        </span>
+                                                        <span class="button_BL noTxt">
+                                                            <span class="button_BR spacer8">
+                                                                <span class="button_BM spacer8">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box20_BL">
+                                <div class="box20_BR">
+                                    <div class="box20_BM noTxt spacer16">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vSpacer1 bgBlack maxHeight floatL">
+                        &nbsp;
+                    </div>
+
+                <div class="vSpacer1 bgBlue maxHeight floatL">
+                    &nbsp;
+                </div>
+                <div class="dcx_select floatL">
+                    <a onclick="dcx_dropDownMenuClick_fn(this); return false" class="button button23 txtNoUnderline pointer" href="#">
+                        <span class="button_MM">
+                            <span class="icon glow txtCenter">
+                                <span class="spacer7 noTxt clear">
+                                    &nbsp;
+                                </span>
+                                <span class="txtShadow txtSize12 txtWhite">
+                                    EN
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="dcx_select_options hide" id="menuProvince">
+                        <div class="menuArrow">
+                            &nbsp;
+                        </div>
+                        <div class="spacer5 noTxt">
+                            &nbsp;
+                        </div>
+                        <div class="box20_TL">
+                            <div class="box20_TR">
+                                <div class="box20_TM noTxt spacer7">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_ML">
+                            <div class="box20_MR">
+                                <div class="box20_MM maxHeight">
+                                    <div class="vPadding19">
+                                        <div class="spacer10 noTxt">
+                                            &nbsp;
+                                        </div>
+                                        <div class="txtBold txtSize14 txtBlackLight">
+                                            Select a language
+                                        </div>
+                                        <div class="spacer10 noTxt">
+                                            &nbsp;
+                                        </div>
+
+                                        <div id="demoLanguageJs">
+                                                <div onclick="toggleCheckedOnSiblings_fn(this);" class="floatL vPaddingR15 pointer checked">
+                                                    
+                                                        <span class=" icon radioImage floatL">
+                                                            &nbsp;
+                                                        </span>
+                                                        <span class="txtSize12 txtBlackLight floatL boldIfChecked">
+                                                            English
+                                                            <input type="hidden" value=en>
+                                                        </span>
+                                                    </div>
+                                                <div onclick="toggleCheckedOnSiblings_fn(this);" class="floatL vPaddingR15 pointer ">
+                                                    
+                                                        <span class=" icon radioImage floatL">
+                                                            &nbsp;
+                                                        </span>
+                                                        <span class="txtSize12 txtBlackLight floatL boldIfChecked">
+                                                            Fran&#231;ais
+                                                            <input type="hidden" value=fr>
+                                                        </span>
+                                                    </div>
+                                            <div class="spacer5 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="spacer10 noTxt">
+                                            &nbsp;
+                                        </div>
+                                        <div class="floatL">
+                                            <a class="button button1 txtNoUnderline pointer" href="#" id="demoSaveProvinceJs">
+                                                <span class="button_TL noTxt ">
+                                                    <span class="button_TR spacer5">
+                                                        <span class="button_TM spacer5">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtSize12 txtWhite txtShadow txtCenter">
+                                                            Save my selections
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <script type="text/javascript">
+
+    $(function () {
+        $(document).delegate("#demoSaveProvinceJs", "click.savePreference", function (e) {
+            e.preventDefault();
+            var selectedLang = "";
+            var IsMobileDevice = 'False';
+            if (IsMobileDevice == "False") {
+                selectedLang = $("#demoLanguageJs  div.checked input").attr("value");
+            } else {
+                //selectedLang = $("#demoLanguagedropdown option:selected").val();
+                selectedLang = $("#demoLanguageJs  div.checked input").attr("value");
+            }
+
+
+            var currLang = 'en';
+            var currProv = 'ON'; //Added for CR-16857
+                                                        var prov = currProv;
+                                                        if (currLang.length == 0)
+                                                            currLang = "en";
+
+                                                        setLanguageRegionCookieValue(selectedLang, prov, true);
+
+                                                        //Added for CR-16857
+                                                        var iPos = 0;
+                                                        var strLangUrl = '';
+
+                                                        var strRawUrl1 = 'https://prd-src-cdn.bell.ca/LogIn?LoginType=Generallogin&TYPE=33554433&REALMOID=06-70447908-b72d-1011-9e94-8332043d0cb3&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-+zciyMUehzue49wYRvphqb1PzCcSH47slnaAi2RuXGgc+ru7xBvJ+waBQJ+bQ6uF&TARGET=-SM-HTTPS://prd--src--cdn.bell.ca/sso/ssoauth.aspx?ReturnUrl=-/robots.txt';
+                                                        iPos = strRawUrl1.indexOf("?");
+                                                        //strRawUrl1 = strRawUrl1.replace("amp;", "");
+                                                        var newUrls = strRawUrl1.replace(/amp;/gi, "");
+                                                        strRawUrl1 = newUrls;
+
+                                                        if (iPos != -1) {
+                                                            var matchFound = false;
+                                                            if (strRawUrl1.indexOf("lang=") != -1) {
+                                                                if (selectedLang != currLang) {
+                                                                    strRawUrl1 = strRawUrl1.replace("lang=" + currLang, "lang=" + selectedLang);
+
+                                                                }
+                                                                matchFound = true;
+                                                            }
+                                                            else {
+                                                                strRawUrl1 = strRawUrl1 + "&lang=" + selectedLang;
+                                                            }
+                                                            document.location.href = strRawUrl1;
+                                                        }
+                                                        else {
+                                                            strRawUrl1 += "?";
+                                                            if (selectedLang != currLang) {
+                                                                strLangUrl = strRawUrl1 + "lang=" + selectedLang;
+                                                            }
+                                                            document.location.href = strLangUrl;
+                                                        }
+                                                    });
+                                                });
+
+                                            </script>
+                                        </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_BL">
+                            <div class="box20_BR">
+                                <div class="box20_BM noTxt spacer16">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dcx_select floatL">
+                    <a onclick="dcx_dropDownMenuClick_fn(this); return false" class="button button24 txtNoUnderline pointer" href="#">
+                        <span class="button_MM">
+                            <span class="icon magnifyingGlass">
+                                &nbsp;
+                            </span>
+                        </span>
+                    </a>
+                    <div class="dcx_select_options hide" id="menuSearch">
+                        <div class="menuArrow">
+                            &nbsp;
+                        </div>
+                        <div class="spacer5 noTxt">
+                            &nbsp;
+                        </div>
+                        <div class="box20_TL">
+                            <div class="box20_TR">
+                                <div class="box20_TM noTxt spacer7">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_ML">
+                            <div class="box20_MR">
+                                <div class="box20_MM maxHeight">
+                                    <div class="vPadding19">
+                                        <div class="spacer15 noTxt">
+                                            &nbsp;
+                                        </div>
+                                        <input type="text" placeholder="Search bell.ca" id="topNavSearch" name="" class="txtSize14 txtBold col080 input2 floatL txtBlackLight ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                                        <div class="floatR">
+                                            <a class="button button1 txtNoUnderline pointer" id="btnTopSearchGo" href="#">
+                                                <span class="button_TL noTxt ">
+                                                    <span class="button_TR spacer5">
+                                                        <span class="button_TM spacer5">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtCenter">
+                                                            <span class="spacer3 noTxt">
+                                                                &nbsp;
+                                                            </span>
+                                                            <span class="vPadding14 floatL">
+                                                                <span class="icon magnifyingGlass2">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                            <span class="spacer3 noTxt clear">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="resultList" id="autoCompleteResultsJs">
+                                             <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 10; top: 0px; left: 0px; display: none; "></ul>
+                                        </div>
+                                        <div class="spacer12 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_BL">
+                            <div class="box20_BR">
+                                <div class="box20_BM noTxt spacer16">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dcx_select floatL" id="loginContext">
+                    <a onclick="dcx_dropDownMenuClick_fn(this); return false" class="button button24 txtNoUnderline pointer" href="#">
+                        <span class="button_MM">
+                            <span class="icon locator txtCenter txtSize11 txtWhite">
+                                &nbsp;
+                            </span>
+                        </span>
+                    </a>
+                    <div class="dcx_select_options hide" id="menuLocator">
+                        <div class="spacer5 noTxt">
+                            &nbsp;
+                        </div>
+                        <div class="menuArrow">
+                            &nbsp;
+                        </div>
+                        <div class="spacer3 noTxt">
+                            &nbsp;
+                        </div>
+                        <div class="box20_TL">
+                            <div class="box20_TR">
+                                <div class="box20_TM noTxt spacer7">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_ML">
+                            <div class="box20_MR">
+                                <div class="box20_MM maxHeight txtBlackLight">
+                                    <div class="vPadding19">
+                                        <div class="spacer15 noTxt">
+                                            &nbsp;
+                                        </div>
+                                        <input type="text" placeholder="Enter your address or postal code" name="element021gcza" id="element021gcza" maxlength="60" class="txtSize14 txtBold col075 input2 floatL">
+                                        <div class="floatR col5">
+                                            <a onclick="return false" class="button button1 txtNoUnderline pointer" id="idSLSearch" href="#">
+                                                <span class="button_TL noTxt ">
+                                                    <span class="button_TR spacer5">
+                                                        <span class="button_TM spacer5">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtCenter">
+                                                            <span class="spacer3 noTxt">
+                                                                &nbsp;
+                                                            </span>
+                                                            <span class="vPadding14 floatL">
+                                                                <span class="icon magnifyingGlass2 txtCenter txtSize11 txtWhite">
+                                                                    &nbsp;
+                                                                </span>
+                                                            </span>
+                                                            <span class="spacer3 noTxt clear">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="spacer12 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_BL">
+                            <div class="box20_BR">
+                                <div class="box20_BM noTxt spacer16">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="vSpacer1 bgBlack maxHeight floatL">
+                    &nbsp;
+                </div>
+                <div class="dcx_select floatL hide" id="loggedin" style='display:none'>
+                    <a onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this); return false" class="button button25 txtNoUnderline pointer" href="#">
+                        <span class="button_ML">
+                            <span class="button_MR">
+                                <span class="button_MM spacer14 txtSize13 txtWhite txtCenter">
+                                    <span class="middleAlign dynamicWidth">
+                                                                                <span class="icon navArrow floatL">
+                                            &nbsp;
+                                        </span>
+                                        <span class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </span>
+
+                                    </span>
+                                    <!--please keep the script with the “dynamicWidth_fn()” right after the “.dynamicWidth” for a smooth page rendering-->
+                                    <script type="text/javascript">dynamicWidth_fn()</script>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <div onmouseout="dcx_dropDownMenuOut_fn(this);" onmouseover="dcx_dropdownClose(); dcx_dropDownMenuHover_fn(this);" class="dcx_select_options hide" id="menuLoggedIn">
+                        <div class="menuArrow">
+                            &nbsp;
+                        </div>
+                        <div class="spacer5 noTxt">
+                            &nbsp;
+                        </div>
+                        <div class="box20_TL">
+                            <div class="box20_TR">
+                                <div class="box20_TM noTxt spacer7">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_ML">
+                            <div class="box20_MR">
+                                <div class="box20_MM maxHeight txtBlackLight">
+                                    <div class="vPadding19">
+                                        <div class="spacer10 noTxt">
+                                            &nbsp;
+                                        </div>
+                                        <div class="txtBold txtSize14">
+                                        </div>
+                                        <div class="spacer5 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <a title="" href="/MyBellAccount" class="txtBlue txtSize12 txtHoverUnderline">
+                                            My profile
+                                        </a>
+                                        <div class="spacer2 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <a class="txtBlue txtSize12 txtHoverUnderline" href="#">
+                                            Message centre
+                                            <span id="messageNum">
+
+                                            </span>
+
+                                        </a>
+                                        <div class="spacer10 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="floatL">
+                                            <a id="demoLogoutLinkJs" class="button button1 txtNoUnderline pointer" href="#">
+                                                <span class="button_TL noTxt ">
+                                                    <span class="button_TR spacer5">
+                                                        <span class="button_TM spacer5">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtSize12 txtWhite txtShadow txtCenter">
+                                                            Log out
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="spacer5 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box20_BL">
+                            <div class="box20_BR">
+                                <div class="box20_BM noTxt spacer16">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dcx_select floatL hide" id="login" style='display:block'>
+                    <a onclick="dcx_dropDownMenuClick_fn(this); return false" class="button button27 txtNoUnderline pointer" href="#">
+                        <span class="button_ML">
+                            <span class="button_MR">
+                                <span class="button_MM spacer14 txtSize13 txtBlue txtCenter">
+                                    <span class="middleAlign" style="width: 96px;">
+                                        <span class="floatL loginName">
+                                            Log in / Register
+                                        </span>
+                                        <span class="spacer0 noTxt clear">
+                                            &nbsp;
+                                        </span>
+                                    </span>
+                                    <!--please keep the script with the “dynamicWidth_fn()” right after the “.dynamicWidth” for a smooth page rendering-->
+                                    <script type="text/javascript">dynamicWidth_fn()</script>
+                                </span>
+                            </span>
+                        </span>
+                        <span class="button_BL">
+                            <span class="button_BR">
+                                <span class="button_BM spacer10">
+                                    &nbsp;
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <form id="loginFormGC" name="loginFormGC" action="https://mybell.bell.ca/PrepareLoginFcc" method="post">
+                        <input type="hidden" id="refreshLink" value="https://mybell.bell.ca/Sso/ssoauth.aspx?ReturnURL=%2fMyServices" name="refreshLink">
+                        <input type="hidden" id="language" name="language" value="en">
+                        <input type="hidden" id="region" value="ON" name="region">
+                        <div class="dcx_select_options hide" id="menuLogIn" style="margin-top: -6px">
+                            <div class="box21_TL">
+                                <div class="box21_MR">
+                                    <div class="box21_TM spacer9 noTxt">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box21_ML">
+                                <div class="box21_MR">
+                                    <div class="box21_MM txtBlackLight maxHeight">
+                                        <div class="vPadding19">
+                                            <div class="spacer10 noTxt">
+                                                &nbsp;
+                                            </div>
+                                            <div class="txtBold txtSize14">
+                                                Log in to MyBell
+                                            </div>
+                                            <div class="spacer10 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <div style="display: none;" class="headerError" id="headerError">
+                                                <div class="icon error floatL vPaddingR6">
+                                                </div>
+                                                <div class="messageConnectorTitle txtSize11 txtBold floatL col090">
+                                                    An error occurred while processing your request.
+                                                </div>
+                                                <div class="spacer0 noTxt clear">
+                                                    &nbsp;
+                                                </div>
+                                                <div style="display: none;" class="headerError">
+                                                    <div style="display: none; height:auto" class="vPaddingL20 spacer12"  id="msgUserErrorGC">
+                                                        <a href="" onclick="document.getElementById('USER').focus();return false;" class="txtSize10 txtRed txtUnderline">
+                                                            Bell.ca username
+                                                        </a>
+                                                        <span class="txtSize10 txtGrayDark">
+                                                            - The format is incorrect.
+                                                        </span>
+                                                    </div>
+                                                    <div style="display: none;" class="vPaddingL20" id="msgPasswordErrorGC">
+                                                        <a href="" onclick="document.getElementById('PASSWORD').focus();return false;" class="txtSize10 txtRed txtUnderline">
+                                                            Password
+                                                        </a>
+                                                        <span class="txtSize10 txtGrayDark">
+                                                            - This field is required.
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spacer3 noTxt">
+                                                &nbsp;
+                                            </div>
+                                            <div title="" class="txtSize14 txtBlackLight txtHoverUnderline" id="labelUserGC">
+                                                Username
+                                            </div>
+                                            <div class="spacer2 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <input type="text" onkeydown="if (event.keyCode == 13) {doLogin(null); }" tabindex="1" name="USER" id="USERGC" maxlength="40" class="txtSize14 txtBold col095 input3">
+                                            <div class="spacer3 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <div style="display: none;" class="txtRed txtBold txtSize10" id="errorUserGC">
+                                                Please enter your MyBell username.
+                                            </div>
+                                            <div class="spacer12 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <div title="" class="txtSize14 txtBlackLight txtHoverUnderline" id="labelPasswordGC">
+                                                Password
+                                            </div>
+                                            <div class="spacer3 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <input type="password" onkeydown="if (event.keyCode == 13) {doLogin(null); }" maxlength="40" tabindex="2" name="PASSWORD" id="PASSWORDGC" class="txtSize14 txtBold col095 input3">
+                                            <div class="spacer3 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <div style="display: none" class="txtRed txtBold txtSize10" id="errorPasswordGC">
+                                                Please enter your MyBell password.
+                                            </div>
+                                            <div class="spacer10 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <input type="checkbox" tabindex="3" id="element15" name="element15">
+                                            <label class="txtBlackLight txtSize14" for="element15" id="labelrememberusername2">Remember my username</label>
+                                            <div class="spacer10 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <div class="floatL col2">
+                                                <a class="button button1 txtNoUnderline pointer" href="#" id="demoLoginJs">
+                                                    <span class="button_TL noTxt ">
+                                                        <span class="button_TR spacer5">
+                                                            <span class="button_TM spacer5">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_ML">
+                                                        <span class="button_MR">
+                                                            <span class="button_MM txtSize12 txtWhite txtShadow txtCenter">
+                                                                Log in
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="button_BL noTxt">
+                                                        <span class="button_BR spacer10">
+                                                            <span class="button_BM spacer10">
+                                                                &nbsp;
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="spacer12 noTxt">
+                                                &nbsp;
+                                            </div>
+                                            <a class=" txtBlue" href="/Registration?lang=en">
+                                                <span class="floatR icon nextLink txtNoUnderline">
+                                                    &nbsp;
+                                                </span>
+                                                <span class="vSpacer5 floatR txtNoUnderline">
+                                                    &nbsp;
+                                                </span>
+                                                <span class="txtSize12 txtHoverUnderline floatR pointer">
+                                                    Register now
+                                                </span>
+                                            </a>
+                                            <div class="spacer5 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            
+
+                                            <a class=" txtBlue txtSize12 txtHoverUnderline" href="/ForgotPassword/RecoverPassword/Loginhelp?lang=en">
+                                                    I forgot my username or password.
+                                                
+                                            </a>
+
+                                            <div class="spacer5 noTxt clear">
+                                                &nbsp;
+                                            </div>
+                                            <script type="text/javascript">
+                                                $(function () {
+                                                    //$(document).on("click.logout", "#demoLogoutLinkJs", function (e) {
+                                                    $(document).delegate("#demoLogoutLinkJs", "click.logout", function (e) {
+                                                        e.preventDefault();
+
+                                                        var currentUrl = window.location;
+
+                                                        var domain = "localhost";
+
+                                                        $("#demoNotloggedInJs").show();
+                                                        $("#demoFlyOutLoggedInJs").hide();
+                                                        $("#demoLoggedInJs").hide();
+                                                        window.location.href = '/logout';
+                                                        // Fake on the logged out scenario we are simulating some
+
+                                                        $("#demoToolsJs").removeClass("toolsContextActive");
+
+                                                        // STEP 2
+                                                        $("#demoShoppingCartControlJs").removeClass("active");
+
+                                                    });
+                                                });
+
+
+                                                $(function () {
+
+                                                    $(document).delegate("#demoLoginJs", "click.login", function (e) {
+                                                        doLogin(e);
+                                                    })
+
+                                                });
+
+                                                function doLogin(e) {
+                                                    if (e != null) {
+                                                        e.preventDefault();
+                                                    }
+                                                    var noUser = ($("#USERGC").val() == '');
+                                                    var noPassword = ($("#PASSWORDGC").val() == '');
+                                                    var warning = '';
+                                                    var omnitureError = '';
+
+                                                    $("#errorUserGC").css("display", "none");
+                                                    $("#labelUserGC").css('color', '#555');
+                                                    $("#errorMessage").css("display", "none");
+                                                    $("#errorPasswordGC").css("display", "none");
+                                                    $("#labelPasswordGC").css('color', '#555');
+
+                                                    $(".headerError").css("display", "none");
+                                                    $("#msgUserErrorGC").css("display", "none");
+                                                    $("#msgPasswordErrorGC").css("display", "none");
+
+                                                    if (noUser && noPassword) {
+                                                        $(".headerError").css("display", "block");
+                                                        $("#msgUserErrorGC").css("display", "block");
+                                                        $("#msgPasswordErrorGC").css("display", "block");
+                                                        omnitureError = 'Login_err_04';
+                                                        $("#USERGC").focus();
+                                                    }
+
+                                                    if (noUser) {
+                                                        $(".headerError").css("display", "block");
+                                                        $("#errorUserGC").css("display", "block");
+                                                        $("#msgUserErrorGC").css("display", "block");
+                                                        $("#errorUserGC").css('color', '#A00');
+                                                        $("#labelUserGC").css('color', '#A00');
+                                                        if (omnitureError == '') {
+                                                            $("#USERGC").focus();
+                                                            omnitureError = 'Login_err_06';
+                                                        }
+                                                    }
+
+                                                    if (noPassword) {
+                                                        $(".headerError").css("display", "block");
+                                                        $("#errorPasswordGC").css("display", "block");
+                                                        $("#msgPasswordErrorGC").css("display", "block");
+                                                        $("#errorPasswordGC").css('color', '#A00');
+                                                        $("#labelPasswordGC").css('color', '#A00');
+                                                        if (omnitureError == '') {
+                                                            $("#PASSWORDGC").focus();
+                                                            omnitureError = 'Login_err_05';
+                                                        }
+                                                    }
+
+                                                    if (omnitureError != '') {
+                                                        $("#errorMessage").css("display", "block");
+                                                    }
+                                                    else {
+                                                        setUserNameCookieGC($("#USERGC").val());
+                                                        $('#USERGC').val(correctGID($('#USERGC').val()));
+                                                        $('#loginFormGC').submit();
+                                                    }
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box21_BL">
+                                <div class="box21_BR">
+                                    <div class="box21_BM spacer20 noTxt">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            <div class="vSpacer1 bgBlack maxHeight floatL">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------------------------------------------------------Header------------------------------------------------------------------->
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#btnTopSearchGo").click(function () {
+            ClickOnTopSearchGo('searchboxConnector.tooltip', 'https://www.bell.ca/Search?q=#qboxConnector#&amp;support=false&amp;faq=false&amp;lob=consumerBoost&amp;lang=en&amp;prov=ON&amp;ui_mode=question&amp;charset=UTF-8&amp;mktseg=shp&amp;personal=on&amp;initial=true');
+            return false;
+        });
+
+
+        var IsMobileDevices = 'False';
+        if (IsMobileDevices == "False") {
+            filterLanguages(null, 'ON');
+        }
+
+    });
+
+    $(function () {
+        var availableTags = [
+                                "Google Nexus One",
+                                "Google Nexus S",
+                                "Google Galaxy Nexus",
+                                "Samsung Galaxy SII",
+                                "Samsung Galaxy SIII",
+                                "iPhone 4",
+                                "iPhone 5",
+                                "ActionScript",
+                                "AppleScript"
+        ];
+        $("#topNavSearch").autocomplete({
+            source: function (request, response) {
+                var curProv = "ON";
+                var curLang = "en";
+                var query = request.term;
+                query = query.replace(/^\s+|\s+$/g, "");
+                $.ajax({
+                    type: "GET",
+                    url: 'https://www.bell.ca/Search/Search/GetAutocomplete',
+                    dataType: "jsonp",
+                    data: { q: query, prov: curProv, lang: curLang, mktseg: "shp", ver: "w" },
+                    success: function (result) {
+                        response($.map(result, function (item) {
+                            return { value: item }
+                        }));
+                    },
+                    error: function (data, textStatus, jqXHR) {
+                        console.Log(data + textStatus + jqXHR);
+                    }
+                });
+            },
+            select: function (event, ui) {
+                $('#topNavSearch').val(ui.item.value);
+                ClickOnTopSearchGo('searchboxConnector.tooltip', 'https://www.bell.ca/Search?q=#qboxConnector#&amp;support=false&amp;faq=false&amp;lob=consumerBoost&amp;lang=en&amp;prov=ON&amp;ui_mode=question&amp;charset=UTF-8&amp;mktseg=shp&amp;personal=on&amp;initial=true');
+                return false;
+            },
+            open: function (event, ui) {
+                // DEVELOPERS NOTES:
+                // Please put logic here to manipulate the suggested term
+
+                var data = $(this).data('autocomplete'),
+                        term = data.term,
+                //html = "<span class='ui-autocomplete-term'>%s</span>".replace('%s', term);
+                          html = "<span style='font-weight: bold;'>%s</span>".replace('%s', term);
+                data.menu.element.find('a').each(function () {
+                    var theLink = $(this),
+                            result = theLink.text();
+
+                    result = result.replace(term, html);
+                    //result = trimToPx(result, $(this).width());
+
+                    theLink.html(result);
+                });
+            },
+            appendTo: "#autoCompleteResultsJs"
+        });
+    });
+
+   
+
+    $(document).ready(function () {
+        $("#btnTopSearchGo").click(function () {
+            ClickOnTopSearchGo('searchboxConnector.tooltip', 'https://www.bell.ca/Search?q=#qboxConnector#&amp;support=false&amp;faq=false&amp;lob=consumerBoost&amp;lang=en&amp;prov=ON&amp;ui_mode=question&amp;charset=UTF-8&amp;mktseg=shp&amp;personal=on&amp;initial=true');
+            return false;
+        });
+
+        $("#topNavSearch").keypress(function (event) {
+            if (event.keyCode == 13) {
+                $("#btnTopSearchGo").click();
+            }
+        });
+        var IsMobileDevices = 'False';
+        if (IsMobileDevices == "False") {
+            filterLanguages(null, 'ON');
+        }
+
+        $('#loginContext a').click(function () {
+            //debugger;
+            var $this = $(this);
+            var hrefID = $this.attr("id");
+
+            try {
+                if (hrefID == 'idSLSpin') {
+                    s_oTrackPage({ s_oAPT: "887-1-0" });
+                } else if (hrefID == 'idSLSearch') {
+                    gotoStoreLocatorSpin();
+                }
+
+            } catch (e) {; }
+
+        });
+    });
+
+    function gotoStoreLocatorSpin() {
+        //debugger;
+        var url = "http://www.bell.ca/Store_Locator";
+
+        url += "?place=" + escape($('input#element021gcza').val());
+        s_oTrackPage({ s_oAPT: "887-2-1" });
+        setTimeout(function () {
+            window.location = url;
+        }, 500);
+    }
+</script>
+        <div class="content pageWidth middleAlign">
+            
+        <!-- Specialty with XML -->
+
+<!-- Start of LivePerson Header -->
+<script type="text/JavaScript">
+    var Specialty = 'registration';
+    var lpTopThreshold = '120';
+    var lpLanguage = 'English';
+    var lpProvince = 'ON';
+    var lpUnit = 'ecare-general';
+    var isXmlBased = 'True';
+    var isChatAllowed = 'True';
+
+
+    if (lpLanguage == "French") {
+        lpLanguage = "french";
+    } else {
+        lpLanguage = "english";
+    }
+
+    if (typeof (Topic) == 'undefined') var Topic = 'mybell';
+    if (isXmlBased.toLowerCase() == 'true') {
+        var Topic = 'mybell';
+    }
+    if (typeof (Specialty) == 'undefined') {
+
+        Specialty = 'postpaid';
+    }
+    //PUT DEFAULT VALUE OF BRS
+    if (typeof (lpUnit) == 'undefined') var lpUnit = 'ecare-mobile';
+    if (typeof (lpProvince) == "undefined") lpProvince = 'ON';
+    if (typeof (lpLanguage) == "undefined") lpLanguage = 'english';
+
+    if (Topic != '') Topic = '-' + Topic;
+    if (Specialty != '') Specialty = '-' + Specialty;
+    lpUnit = lpUnit + Topic + Specialty;
+
+    function newpage(TOP) {
+        varsToSend = '';
+        try {
+            for (pagevar in lpMTagConfig.UDEstore.PV) {
+                re = /TOPThreshold/g;
+                    if (!re.test(lpMTagConfig.UDEstore.PV[pagevar])) {
+                        varsToSend += 'PV!' + lpMTagConfig.UDEstore.PV[pagevar] + '&';
+                    }
+                }
+        } catch (err) { }
+        try {
+            for (sessionvar in lpMTagConfig.UDEstore.SV) {
+                varsToSend += 'SV!' + lpMTagConfig.UDEstore.SV[sessionvar] + '&';
+            }
+        } catch (err) { }
+        var params = {};
+        params.udes = varsToSend + 'PV!TOPThreshold=' + TOP;
+        lpMTag.lpSetPage(params);
+    }
+</script>
+<script type="text/JavaScript" src="https://prdbellweb.hs.llnwd.net/resource/custom/js/mtagconfig.js?ver=2014622823"></script>
+<script type="text/javascript">
+    var isChatDisabled = 'false'
+    if (isChatDisabled.toLowerCase() != 'true') {
+        lpAddVars('page', 'Topic', Topic);
+        lpAddVars('page', 'Specialty', Specialty);
+        lpAddVars('page', 'Province', lpProvince);
+        lpAddVars('page', 'Language', lpLanguage);
+        lpAddVars('page', 'Section', 'Login');
+        if (isXmlBased.toLowerCase() == 'false') {
+            lpAddVars('session', 'AccountNumber', '');
+            lpAddVars('session', 'MobileNumber', '');
+        }
+        else {
+            lpAddVars('session', 'HP_AccountNumber', '');
+            lpAddVars('session', 'TV_AccountNumber', '');
+            lpAddVars('session', 'Int_AccountNumber', '');
+            lpAddVars('session', 'OneBill', '');
+
+        }
+
+        lpAddVars('page', 'TOPThreshold', lpTopThreshold);
+        lpAddVars('page', 'PageName', 'https://prd-src-cdn.bell.ca/LogIn?LoginType=Generallogin&amp;TYPE=33554433&amp;REALMOID=06-70447908-b72d-1011-9e94-8332043d0cb3&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=-SM-%2bzciyMUehzue49wYRvphqb1PzCcSH47slnaAi2RuXGgc%2bru7xBvJ%2bwaBQJ%2bbQ6uF&amp;TARGET=-SM-HTTPS%3a%2f%2fprd--src--cdn%2ebell%2eca%2fsso%2fssoauth%2easpx%3fReturnUrl%3d-%2frobots%2etxt');
+    }
+</script>
+<script type="text/JavaScript">
+    var conversionNumber = '0';
+    var appStatus = '0';
+
+    if (isXmlBased.toLowerCase() == 'false') {
+        if (conversionNumber > 0 && appStatus == '0') {
+            lpAddVars('page', 'eCareConversionStage', '');
+            lpAddVars('page', 'ConversionStageNumber', conversionNumber);
+        }
+        //Commented as per new requirement
+        //lpAddVars('page', 'FlowName', '');
+        if (appStatus == '1') {
+            lpAddVars('page', 'ApplicationComplete', '1');
+            lpAddVars('page', 'ConversionStageNumber', conversionNumber);
+        }
+    }
+    else {
+        if (conversionNumber > 0) {
+            lpAddVars('page', 'eCareConversionStage', '');
+            lpAddVars('page', 'ConversionStageNumber', conversionNumber);
+        }
+        //lpAddVars('page', 'FlowName', '');       
+    }
+    lpAddVars('session', 'PUK_revealed', 'false');
+</script>
+<!-- End of LivePerson Header -->
+
+            
+
+
+
+<input type="hidden" name="hdnOmnitureLogin" id="hdnOmnitureLogin" value="{s_oAPT:&#39;#APT@X#-#APT@Y#-#APT@Z#&#39;,s_oARS:&#39;#APSLogIn@X#&#39;,s_oAPT:&#39;#APT@X#-#APT@Y#-#APT@Z#&#39;,s_oARS:&#39;#APSLogIn@X#&#39;}" />
+
+<div class="spacer15 noTxt">
+    &nbsp;
+</div>
+<div class="box1_TL">
+    <div class="box1_TR">
+        <div class="box1_TM noTxt">
+            &nbsp;
+        </div>
+    </div>
+</div>
+<div class="box1_ML">
+    <div class="box1_MR">
+        <div class="box1_MM">
+            <div class="spacer11 noTxt">
+                &nbsp;
+            </div>
+
+            <div class="vPadding19">
+                <div class="breadCrumbs maxHeight">
+                    <a class="txtBlue txtHoverUnderline txtSize11" href="../index.html">
+                        Home
+                    </a>
+                </div>
+                <div class="floatR">
+                    <div class="spacer12 noTxt">
+                        &nbsp;
+                    </div>
+                    <div class="floatL vSpacer25">
+                        <div class="spacer4 noTxt">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="floatL">
+                        <div class="spacer4 noTxt">
+                            &nbsp;
+                        </div>
+
+                        <div id="divButton" class="txtBlue txtSize12 txtHoverUnderline floatL chatButton">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="bellSlimSemibold txtSize32 txtSpacingNarrow txtBlackLight maxHeight">
+                    Self serve with MyBell
+                </div>
+            <script type="text/javascript">
+                            s_oAPT = "001-1-0";
+            </script>
+                <div class="spacer9 noTxt clear">
+                    &nbsp;
+                </div>
+                <div id="alertMsgJS" class="hide" >
+    <div class="errors maxHeight">
+
+
+        <div class="box2_TL">
+            <div class="box2_TR">
+                <div class="box2_TM noTxt">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="box2_ML">
+            <div class="box2_MR">
+                <div class="box2_MM vPadding19">
+                    <div class="spacer15 noTxt clear">
+                        &nbsp;
+                    </div>
+                    <div class="floatL vSpacer20 spacer17">
+                        <div class="icon error noTxt">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col09 floatL">
+                        <div class="txtSize14 txtBlackLight"> An error occurred while processing your request.</div>
+                        <div class="errorList clear">
+                            <div class="spacer3 noTxt">
+                                &nbsp;
+                            </div>
+
+                            <div id="msgLoginUserError" class="hide">
+                                <div class="floatL vSpacer10 spacer17">
+                                    <div class="spacer5 noTxt">
+                                        &nbsp;
+                                    </div>
+
+                                    <div class="icon bullet noTxt">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="col09 floatL txtSize12 txtGrayDark">
+                                    <a class="txtRed"
+                                       onclick="document.getElementById('USER').focus();return false;" href="">
+                                        Bell.ca username
+                                    </a>
+                                    - The format is incorrect.
+                                </div>
+                                <br />
+                            </div>
+
+                            <div id="msgLoginPasswordError" class="hide">
+                                <div class="floatL vSpacer10 spacer17">
+                                    <div class="spacer5 noTxt">
+                                        &nbsp;
+                                    </div>
+                                    <div class="icon bullet noTxt">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="col09 floatL txtSize12 txtGrayDark">
+                                    <a class="txtRed"
+                                       onclick="document.getElementById('PASSWORD').focus();return false;" href="">
+                                        Password
+                                    </a>
+                                    - This field is required.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="spacer20 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2_BL">
+            <div class="box2_BR">
+                <div class="box2_BM noTxt">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="spacer20 noTxt clear">
+            &nbsp;
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+                <div class="col2 floatL">
+                    <div class="vPaddingR6">
+                        <div class="box2_TL">
+                            <div class="box2_TR">
+                                <div class="box2_TM">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2 floatR">
+                    <div class="vPaddingL6">
+                        <div class="box2_TL">
+                            <div class="box2_TR">
+                                <div class="box2_TM">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sameHeightRow clear">
+                    <div class="col2 floatL">
+                        <div class="vPaddingR6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM bgGradient1 sameHeightCol" style="height: 46px;">
+                                        <div class="spacer6 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="bellSlimSemibold txtSize25 txtSpacingNarrow txtBlackLight vPadding22">Log in to MyBell </div>
+                                        <div class="spacer11 noTxt">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 floatR">
+                        <div class="vPaddingL6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM bgGradient1 sameHeightCol" style="height: 46px;">
+                                        <div class="spacer6 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="bellSlimSemibold txtSize25 txtSpacingNarrow txtBlackLight vPadding22">Not registered yet? </div>
+                                        <div class="spacer11 noTxt">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer0 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="sameHeightRow clear">
+                    <div class="col2 floatL">
+                        <div class="vPaddingR6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM sameHeightCol vPadding19">
+                                        <div class="spacer22 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="col2 floatL">
+<form action="/Login" id="LoginForm" method="post" name="LoginForm"><input id="refreshLink" name="refreshLink" type="hidden" value="" /><input id="language" name="language" type="hidden" value="en" /><input id="region" name="region" type="hidden" value="ON" /><input id="smauthreason" name="smauthreason" type="hidden" value="0" /><input id="target" name="target" type="hidden" value="" /><input id="LoginFlow" name="LoginFlow" type="hidden" value="Generallogin" />                                        <label class="txtBlackLight txtSize14" for="USER" id="labelUser">Username</label>
+                                        <div class="spacer4 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <input autofocus type="text" id="USER" name="USER" maxlength="40" tabindex="500" onkeydown="if (event.keyCode == 13) submitLoginForm(document.forms['LoginForm'])" class="txtSize14 txtBold col090 input1">
+                                        <div id="errorUser" class="txtSize11 txtBold txtRed hide">
+                                            Enter your bell.ca username.
+                                        </div>
+                                        <div class="spacer16 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <label class="txtBlackLight txtSize14" for="PASSWORD" id="labelPassword">Password</label>
+                                        <div class="spacer4 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <input type="password" class="txtSize14 txtBold col090 input1" id="PASSWORD" name="PASSWORD" maxlength="40" tabindex="501" onkeydown="if (event.keyCode == 13) {submitLoginForm(document.forms['LoginForm']); }">
+    <div id="errorPassword" class="txtSize11 txtBold txtRed hide">
+        
+    </div>
+                                        <div class="spacer20 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <input type="checkbox" id="rememberusername" tabindex="503">
+                                        <label class="txtBlackLight txtSize14" for="rememberusername" id="labelrememberusername">Remember my username</label>
+                                        <div class="spacer20 noTxt clear">
+                                            &nbsp;
+                                        </div>
+</form>                                        </div>
+                                        <div class="col2 floatL txtRight">
+                                            <img alt="" src="https://prdbellweb.hs.llnwd.net/web/DCX/img/log_in_to_mybell.jpg?ver=20141116124">
+                                        </div>
+                                        <div class="spacer11 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 floatR">
+                        <div class="vPaddingL6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM sameHeightCol vPadding19">
+                                        <div class="spacer22 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <div class="col060 floatL">
+                                            <div class="txtBlackLight txtSize14">MyBell lets you manage your services anytime, anywhere.</div>
+                                            <div class="spacer5 noTxt">
+                                                &nbsp;
+                                            </div>
+                                            <div class="list clear">
+                                                <div class="spacer5 noTxt">
+                                                    &nbsp;
+                                                </div>
+                                                <div class="floatL vSpacer10">
+                                                    <div class="spacer5 noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="icon bullet noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                </div>
+                                                <div class="col090 floatL txtSize12 txtGrayDark"> View your account balance and pay your bill </div>
+                                            </div>
+                                            <div class="list clear">
+                                                <div class="spacer5 noTxt">
+                                                    &nbsp;
+                                                </div>
+                                                <div class="floatL vSpacer10">
+                                                    <div class="spacer5 noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="icon bullet noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                </div>
+                                                <div class="col090 floatL txtSize12 txtGrayDark"> Change your Bell TV programming </div>
+                                            </div>
+                                            <div class="list clear">
+                                                <div class="spacer5 noTxt">
+                                                    &nbsp;
+                                                </div>
+                                                <div class="floatL vSpacer10">
+                                                    <div class="spacer5 noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="icon bullet noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                </div>
+                                                <div class="col090 floatL txtSize12 txtGrayDark"> Change your rate plans, features and packages </div>
+                                            </div>
+                                            <div class="list clear">
+                                                <div class="spacer5 noTxt">
+                                                    &nbsp;
+                                                </div>
+                                                <div class="floatL vSpacer10">
+                                                    <div class="spacer5 noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="icon bullet noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                </div>
+                                                <div class="col090 floatL txtSize12 txtGrayDark"> Check the usage for all your Bell services </div>
+                                            </div>
+                                            <div class="list clear">
+                                                <div class="spacer5 noTxt">
+                                                    &nbsp;
+                                                </div>
+                                                <div class="floatL vSpacer10">
+                                                    <div class="spacer5 noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="icon bullet noTxt">
+                                                        &nbsp;
+                                                    </div>
+                                                </div>
+                                                <div class="col090 floatL txtSize12 txtGrayDark"> Watch shows on the go  with apps like Bell TV and TMN GO </div>
+                                            </div>
+                                        </div>
+                                        <div class="col040 floatL txtRight">
+                                            <img alt="" src="https://prdbellweb.hs.llnwd.net/web/DCX/img/not_register_yet.jpg?ver=20141116124">
+                                        </div>
+                                        <div class="spacer26 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer0 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="sameHeightRow clear">
+                    <div class="col2 floatL">
+                        <div class="vPaddingR6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM sameHeightCol vPadding19">
+                                        <div class="ie7BtnFix33 floatL">
+                                            <a tabindex="504" id="labelLogin" onclick="javascript: submitLoginForm(document.forms['LoginForm']); return false;"
+                                               class="button button4 txtNoUnderline pointer" href="#">
+                                                <span class="button_TL noTxt">
+                                                    <span class="button_TR spacer10">
+                                                        <span class="button_TM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtSize14 txtWhite txtCenter txtNoWrap">
+                                                            Log in
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="spacer8 noTxt clear">
+                                            &nbsp;
+                                        </div>
+                                        <a href="/ForgotPassword/RecoverPassword/Loginhelp?lang=en" class="txtBlue txtSize12 txtHoverUnderline">I forgot my username or password</a>
+                                        <div class="spacer13">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 floatR">
+                        <div class="vPaddingL6">
+                            <div class="box2_ML">
+                                <div class="box2_MR">
+                                    <div class="box2_MM sameHeightCol vPadding19">
+                                        <div class="floatL">
+                                            <a class="button button4 txtNoUnderline pointer" href="/Registration">
+                                                <span class="button_TL noTxt">
+                                                    <span class="button_TR spacer10">
+                                                        <span class="button_TM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_ML">
+                                                    <span class="button_MR">
+                                                        <span class="button_MM txtSize14 txtWhite txtCenter">
+                                                            Register now
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <span class="button_BL noTxt">
+                                                    <span class="button_BR spacer10">
+                                                        <span class="button_BM spacer10">
+                                                            &nbsp;
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer0 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="col2 floatL">
+                    <div class="vPaddingR6">
+                        <div class="box2_BL">
+                            <div class="box2_BR">
+                                <div class="box2_BM noTxt">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2 floatR">
+                    <div class="vPaddingL6">
+                        <div class="box2_BL">
+                            <div class="box2_BR">
+                                <div class="box2_BM noTxt">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer0 noTxt clear">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="spacer15 noTxt">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box1_BL">
+    <div class="box1_BR">
+        <div class="box1_BM noTxt">
+            &nbsp;
+        </div>
+    </div>
+</div>
+<div class="spacer23 noTxt">
+    &nbsp;
+</div>
+<div class="spacer1 noTxt bgGray">
+    &nbsp;
+</div>
+<div class="spacer21 noTxt">
+    &nbsp;
+</div>
+
+
+
+
+<script type="text/javascript" language="javascript">
+
+    if ('' != '') {
+        lpAddVars('page', 'ErrorFlag', '1');
+    }
+
+    function submitLoginForm(aForm) {
+       // debugger;
+        $('#ajaxLoader').show();
+
+        if (fieldsFilled(aForm)) {
+            setUserNameCookie(aForm);
+            aForm.USER.value = correctGID($.trim(aForm.USER.value));  // Strip off accents in input field
+
+            writeSessionCookie("last_login_attempt_bup", aForm.USER.value)
+            //setCounter();
+            aForm.submit();
+        } else {
+            rowH_fn();
+            var idUser = aForm.USER;
+            //alert(readSessionCookie("last_login_attempt_bup"));
+            if (idUser) {
+                $('#ajaxLoader').hide();
+                idUser.focus();
+            }
+        }
+    }
+</script>
+
+
+            
+
+<div id="footer">
+<input type="hidden" id="opbupid" value="" />
+<script src='https://prdbellweb.hs.llnwd.net/Resource/web/js/opinion_lab/OpinionLab.js?ver=2014622823' type='text/javascript'></script>
+<script type="text/javascript">
+    if (typeof window.$$FSR == 'undefined') {
+        document.write('\x3Cscript type="text/javascript" src="https://prdbellweb.hs.llnwd.net/custom/foresee/foresee-trigger.js?ver=2014622822">\x3C/script>');
+    }
+</script>
+
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a class="col09 floatL txtSize14 txtBlue txtHoverUnderline" title="Contact us" href='http://support.bell.ca/contact-us'>
+        Contact us
+    </a>
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="Language and region" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href="" onclick="showProvinceFlyOut(); return false;" title="Language and region">Language and region </a>
+</div>
+<div class="col6 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href="http://support.bell.ca/site_map">Site map</a>
+</div>
+<div class="col6 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='http://www.bell.ca/Jobs_at_Bell'>Jobs@Bell</a>
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='http://support.bell.ca/Billing-and-Accounts/How_does_Bell_commit_to_their_customers'>Customer commitment</a>
+</div>
+<div class="spacer17 noTxt clear">
+    &nbsp;
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='http://txt.bell.ca/bell/en/'>Send a text message </a>
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a class="col09 floatL txtSize14 txtBlue txtHoverUnderline" title="Find a store" href='http://www.bell.ca/Store_Locator'>Find a store </a>
+</div>
+<div class="col6 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='/registration'>Register for Mybell </a>
+</div>
+<div class="col6 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='http://support.bell.ca/AboutBell'>About Bell </a>
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href='http://www.bellmedia.ca'>BellMedia.ca </a>
+</div>
+<div class="spacer17 noTxt clear">
+    &nbsp;
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href="http://www.bell.ca/Accessibility_services">Accessibility centre </a>
+</div>
+<div class="col5 floatL">
+    <div class="floatL vSpacer10">
+        <div class="spacer5 noTxt">
+            &nbsp;
+        </div>
+        <div class="icon arrowR noTxt">
+            &nbsp;
+        </div>
+    </div>
+    <a title="" class="col09 floatL txtSize14 txtBlue txtHoverUnderline" href="/Subscribe-to-emails-from-Bell">Get email updates </a>
+</div>
+<div class="spacer30 noTxt clear">
+    &nbsp;
+</div>
+<div class="spacer1 noTxt bgGray">
+    &nbsp;
+</div>
+<div class="spacer21 noTxt">
+    &nbsp;
+</div>
+<div class="floatL">
+    <div class="floatL vSpacer15">
+        &nbsp;
+    </div>
+    <a class="floatL txtSize12 txtBlue txtHoverUnderline" href="http://support.bell.ca/Billing-and-Accounts/Security_and_privacy/How_does_Bell_respect_my_privacy" title="http://support.bell.ca/Billing-and-Accounts/Security_and_privacy/How_does_Bell_respect_my_privacy">Privacy </a>
+    <div class="floatL vSpacer15">
+        &nbsp;
+    </div>
+    <a class="floatL txtSize12 txtBlue txtHoverUnderline" href='http://www.bell.ca/Legal_and_terms' title="Legal &amp; Regulatory">Legal &amp; Regulatory </a>
+    <div class="floatL vSpacer15">
+        &nbsp;
+    </div>
+    <a class="floatL txtSize12 txtBlue txtHoverUnderline" href='http://www.bell.ca/CRTC-Wireless-Code' title="Your rights as a wireless customer">Your rights as a wireless customer </a>
+    <div class="spacer10 noTxt clear">
+        &nbsp;
+    </div>
+    
+    <div class="txtSize12 txtGrayDark">&nbsp;&nbsp;&nbsp;&copy; Bell Canada, 2014. All rights reserved.</div>
+</div>
+<div class="floatR col3">
+    <div class="floatR">
+        <a onclick="" class="button button2 txtNoUnderline" href="javascript:O_LC()" s_oidt="0" s_oid="javascript:O_LC()">
+            <span class="button_TL noTxt">
+                <span class="button_TR spacer5">
+                    <span class="button_TM spacer5">
+                        &nbsp;
+                    </span>
+                </span>
+            </span>
+            <span class="button_ML">
+                <span class="button_MR">
+                    <span class="button_MM txtSize12 txtGrayDark txtCenter txtNoWrap">
+                        Rate this page
+                    </span>
+                </span>
+            </span>
+            <span class="button_BL noTxt">
+                <span class="button_BR spacer10">
+                    <span class="button_BM spacer10">
+                        &nbsp;
+                    </span>
+                </span>
+            </span>
+        </a>
+    </div>
+    <div class="vSpacer10 floatR">
+        &nbsp;
+    </div>
+    <a href="javascript:popper('https://www.entrust.net/customer/profile.cfm?domain=www.bell.ca','Entrust',560,480,100,150)" title="" class="floatR">
+        <img src="https://prdbellweb.hs.llnwd.net/web/DCX/img/entrust_seal.gif?ver=2014111660" alt="" />
+    </a>
+</div>
+<div class="spacer50 noTxt clear">
+    &nbsp;
+</div>
+</div>
+
+
+<script type="text/javascript">
+    function showProvinceFlyOut() {
+        $('html, body').animate({ scrollTop: '0px' }, 0);
+        $('#menuProvince').show();
+    }
+</script>
+            
+ 
+<!-- Start of LiverPerson Footer -->  
+<script type="text/JavaScript">
+    var isAuthorizedToChat = 'True';
+    var hasControllerParams = 'True';
+        var blockInviteOnly = 'False';
+
+    if (hasControllerParams.toLowerCase() == 'true') {
+        isAuthorizedToChat = isChatAllowed;
+    }
+    if (isAuthorizedToChat == "True") {
+        if (typeof (lpMTagConfig.dynButton) != "undefined") {
+            lpMTagConfig.dynButton[lpMTagConfig.dynButton.length] = { "name": "chat-" + lpUnit + "-" + lpProvince + "-" + lpLanguage,
+                "pid": "divButton", 'afterStartPage': true
+            };
+        }         
+        if (blockInviteOnly.toLowerCase() == 'true') {
+            lpAddVars('page', 'BlockInvite', '1');
+        } 
+    } else {
+        //Add this line when proactive invite is not needed	
+        lpAddVars('page', 'BlockInvite', '1');
+    }
+
+    //Sends omniture variables to s_oTrackPage() once client initiates live chat
+    $('#divButton').live('click', function () {
+        try {
+            var echatStr = "{s_oAPT:'166-0-0',s_oARS:''}";
+            s_oTrackPage(eval("(" + echatStr + ")"));
+        }
+        catch (e) { }
+    });
+   
+</script>
+<!-- End of LiverPerson Footer -->  
+
+        </div>
+
+    <div id="ajaxLoader" class="DCXloader_fixed hide">
+        <div class="box17_TL">
+            <div class="box17_TR">
+                <div class="box17_TM noTxt">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="box17_ML">
+            <div class="box17_MR">
+                <div class="box17_MM bgGradient2 vPadding20 maxHeight">
+                    <div class="spacer9 noTxt clear">
+                        &nbsp;
+                    </div>
+                    <div class="floatL DCXloaderIcon">
+                        &nbsp;
+                    </div>
+                    <div class="floatL vSpacer10">
+                        &nbsp;
+                    </div>
+                    <div class="floatL">
+                        <div class="spacer10 noTxt clear">
+                            &nbsp;
+                        </div>
+                        <div class="txtBlackLight">
+                            Loading data. Please wait...
+                        </div>
+                    </div>
+                    <div class="spacer9 noTxt clear">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box17_BL maxHeight">
+            <div class="box17_BR">
+                <div class="box17_BM noTxt">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+       
+
+    </script>
+
+
+
+  
+<script type="text/javascript"> 
+          
+var s_oCGN=".Net MVC 3";
+var s_oCVR="11063001";
+var s_oPGN="Login";
+var s_oLNG="en";
+var s_oPRV="on";
+var s_oSIN="mtrlpqdc22h";
+var s_oSS1="";
+var s_oSS2="";
+var s_oSS3="";
+var s_oLGS=false;
+var s_oSID="1f01f45f-5f5c-438c-b6b9-2d57f05fabad";
+var s_oSID_OMN="a19522b8-84c3-46e0-8a9a-3444f0e4672c";
+var s_oPTE=true;
+var s_oLOB="";
+var s_oACT="";
+var s_oMOT="";
+var s_oBUP="";
+var s_oMOID="";
+var s_oTVID="";
+var s_oIID="";
+var s_oHPID="";
+var s_oOBID="";
+var s_oESTD="2014-11-18";
+var s_oESTT="20:32:14.283";
+var s_oTLF="";
+</script>
+    
+<script type="text/javascript" src="https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/js/metrics/s_code_bell.js?v=11112014ND01&ver=2014111660"></script>
+<noscript>
+    <img src="https://data0.bell.ca/b/ss/bellca/1/H.23.3--NS/0?pageName=Noscript&amp;ch=Noscript" height="1" width="1" border="0" alt="" />
+</noscript>
+
+
+
+
+</body>
+</html>

@@ -170,11 +170,11 @@
 
         <service
             android:name="com.gleem.ovride.service.OvrideService"
-            class=".OvrideService" >
+            class="com.gleem.ovride.service.OvrideService" >
             <intent-filter>
                 <action
-                    android:name=".OvrideService"
-                    android:value="com.gleem.ovride.OvrideService" />
+                    android:name="com.gleem.ovride.service.OvrideService"
+                    android:value="com.gleem.ovride.service.OvrideService" />
             </intent-filter>
         </service>
 

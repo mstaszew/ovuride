@@ -10,10 +10,4 @@ package com.gleem.ovride.persistence;
 //TODO: Migrate all persistent constants and variables from 'Global Constants'
 public class PersistentSettings {
 	final String FILENAME = "settings.json";
-	String bell_username  = "ANNBALDERAMA";
-	String bell_pass = "bellx2573";
-
-	// FileOutputStream fos = android.util.openFileOutput(FILENAME, Context.MODE_PRIVATE);
-	// fos.write(string.getBytes());
-	// fos.close();
 }
